@@ -1,0 +1,138 @@
+{
+  "n_train": 2494,
+  "n_test": 596,
+  "label_counts": {
+    "1": 903,
+    "2": 514,
+    "3": 438,
+    "4": 367,
+    "5": 272
+  },
+  "by_venue": [
+    {
+      "venue": "cav",
+      "n": 657,
+      "mean_label": 2.1202,
+      "worth_rate": 0.5434,
+      "n_test": 221
+    },
+    {
+      "venue": "iclp",
+      "n": 456,
+      "mean_label": 2.943,
+      "worth_rate": 0.7434,
+      "n_test": 0
+    },
+    {
+      "venue": "kr",
+      "n": 661,
+      "mean_label": 2.7292,
+      "worth_rate": 0.7322,
+      "n_test": 151
+    },
+    {
+      "venue": "lics",
+      "n": 604,
+      "mean_label": 1.9371,
+      "worth_rate": 0.5232,
+      "n_test": 187
+    },
+    {
+      "venue": "lpnmr",
+      "n": 116,
+      "mean_label": 3.1379,
+      "worth_rate": 0.819,
+      "n_test": 37
+    }
+  ],
+  "by_year": [
+    {
+      "year": 2016,
+      "n": 223,
+      "worth_rate": 0.6054,
+      "mean_label": 2.287
+    },
+    {
+      "year": 2017,
+      "n": 191,
+      "worth_rate": 0.5654,
+      "mean_label": 2.1832
+    },
+    {
+      "year": 2018,
+      "n": 237,
+      "worth_rate": 0.6118,
+      "mean_label": 2.2363
+    },
+    {
+      "year": 2019,
+      "n": 230,
+      "worth_rate": 0.5522,
+      "mean_label": 2.2304
+    },
+    {
+      "year": 2020,
+      "n": 254,
+      "worth_rate": 0.6496,
+      "mean_label": 2.5157
+    },
+    {
+      "year": 2021,
+      "n": 264,
+      "worth_rate": 0.6212,
+      "mean_label": 2.3561
+    },
+    {
+      "year": 2022,
+      "n": 224,
+      "worth_rate": 0.7009,
+      "mean_label": 2.7411
+    },
+    {
+      "year": 2023,
+      "n": 263,
+      "worth_rate": 0.692,
+      "mean_label": 2.5856
+    },
+    {
+      "year": 2024,
+      "n": 313,
+      "worth_rate": 0.6677,
+      "mean_label": 2.5335
+    },
+    {
+      "year": 2025,
+      "n": 294,
+      "worth_rate": 0.6769,
+      "mean_label": 2.5646
+    },
+    {
+      "year": 2026,
+      "n": 1,
+      "worth_rate": 0.0,
+      "mean_label": 1.0
+    }
+  ],
+  "no_author_worth_rate": 0.5260416666666666,
+  "with_author_worth_rate": 0.6472632493483927,
+  "n_no_author": 192,
+  "duplicate_title_rows": 16,
+  "test_author_mentions": 1705,
+  "test_author_mentions_seen_in_train": 901,
+  "distinct_test_authors_seen_in_train": "648/1411",
+  "title_len_words_mean": 8.40617481956696,
+  "corr_id_year_within_venue": {
+    "cav": -0.994,
+    "iclp": -0.978,
+    "kr": -0.991,
+    "lics": -0.993,
+    "lpnmr": -0.963
+  },
+  "test_mix_expected_worth_rate": 0.6019945110647971,
+  "metric_simulations": {
+    "random_all": 0.48441027132167325,
+    "perfect_order_all": 0.5866692885799678,
+    "oracle_exclude_rating1": 0.6936141573172147,
+    "oracle_exclude_and_order": 0.7572447221950466
+  }
+}

@@ -1,0 +1,16 @@
+id,venue,year,Label,p_worth,e_gain,title
+2271,cav,2016,4,0.317,0.129,Liveness of Randomised Parameterised Systems under Arbitrary Schedulers.
+1045,kr,2019,5,0.248,0.157,"Artificial Intelligence in Medicine: Knowledge Representation and Transparent and Explainable Systems - AIME 2019 International Workshops, KR4HC/ProHealth and TEAAM, Poznan, Poland, June 26-29, 2019, Revised Selected Papers"
+2521,lics,2022,4,0.325,0.163,Curry and Howard Meet Borel.
+2516,lics,2022,4,0.398,0.165,"Reasonable Space for the λ-Calculus, Logarithmically."
+1344,lpnmr,2022,4,0.346,0.166,QMaxSATpb: A Certified MaxSAT Solver.
+2930,lics,2017,4,0.381,0.168,Common knowledge and multi-scale locality analysis in Cayley structures.
+480,kr,2025,4,0.449,0.184,An Axiomatic Study of a Modular Evaluation of Enthymeme Decoding in Weighted Structured Argumentation.
+1607,cav,2023,4,0.445,0.192,MDPs as Distribution Transformers: Affine Invariant Synthesis for Safety Objectives.
+2253,cav,2016,4,0.489,0.202,Bounded Cycle Synthesis.
+2321,lics,2025,4,0.507,0.207,"Reachability Types, Traces and Full Abstraction."
+519,kr,2025,5,0.492,0.208,Non-deterministic Action Reversibility: Complexity Results.
+2605,lics,2021,4,0.448,0.213,Higher Lenses.
+2281,cav,2016,4,0.498,0.216,BigraphER: Rewriting and Analysis Engine for Bigraphs.
+2995,lics,2017,4,0.490,0.218,"Uniform, integral and efficient proofs for the determinant identities."
+2478,lics,2023,4,0.485,0.221,Intuitionistic S4 is decidable.

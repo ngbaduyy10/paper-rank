@@ -1,0 +1,16 @@
+id,venue,year,Label,p_worth,e_gain,title
+1763,cav,2021,1,0.940,0.691,PAYNT: A Tool for Inductive Synthesis of Probabilistic Programs.
+1727,cav,2022,1,0.906,0.676,Trainify: A CEGAR-Driven Training and Verification Framework for Safe Deep Reinforcement Learning.
+530,kr,2025,1,0.946,0.672,Context-Based Belief Revision.
+608,kr,2024,1,0.930,0.670,LAD-based Feature Selection for Optimal Decision Trees and Other Classifiers.
+622,kr,2024,1,0.924,0.664,Explaining Decisions in ML Models: A Parameterized Complexity Analysis.
+1096,kr,2018,1,0.925,0.641,Combining the Causal Judgments of Experts with Possibly Different Focus Areas.
+2609,lics,2021,1,0.942,0.639,Symbolic Time and Space Tradeoffs for Probabilistic Verification.
+1091,kr,2018,1,0.919,0.635,ExactLearner: A Tool for Exact Learning of EL Ontologies.
+1651,cav,2023,1,0.872,0.634,Certified Private Inference on Neural Networks via Lipschitz-Guided Abstraction Refinement.
+690,kr,2023,1,0.903,0.630,Credible Models of Belief Update.
+1146,kr,2018,1,0.938,0.628,iCon: A Diagrammatic Theorem Prover for Ontologies.
+639,kr,2024,1,0.939,0.627,MTLearn: Extracting Temporal Rules Using Datalog Rule Learners.
+1260,kr,2016,1,0.927,0.623,Applying SPARQL-Based Inference and Ontologies for Modelling and Execution of Clinical Practice Guidelines: A Case Study on Hypertension Management.
+613,kr,2024,1,0.890,0.614,On the Expressivity of Recurrent Neural Cascades with Identity.
+658,kr,2023,1,0.925,0.613,Knowledge-Driven Robot Program Synthesis from Human VR Demonstrations.

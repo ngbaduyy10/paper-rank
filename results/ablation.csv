@@ -1,0 +1,14 @@
+model,description,auc_worth,spearman_gain,score_all,score_expected,Q_expected,R_expected,score_frac_0.6,std_expected
+venue_prior,"Metadata only (venue, year, DOI type, #authors)",0.6121,0.2675,0.5222,0.5185,0.3649,0.8972,0.5017,0.0213
+tfidf_lr,+ title word/char TF-IDF,0.7447,0.5418,0.5559,0.5949,0.4708,0.8095,0.5934,0.0209
+char_lr,+ title char TF-IDF only,0.7444,0.5312,0.5543,0.5907,0.4562,0.8396,0.5918,0.0212
+emb_nometa_lr,"4 frozen embeddings, no metadata",0.7737,0.5882,0.5594,0.6038,0.4801,0.8152,0.6048,0.0200
+emb_lr,Metadata + 4 frozen embeddings,0.7701,0.5836,0.5588,0.6004,0.4804,0.8017,0.6019,0.0206
+emb_cluster_lr,+ KMeans topic clusters,0.7768,0.5924,0.5590,0.6087,0.4974,0.7855,0.6066,0.0206
+emb_author_lr,+ author target encoding,0.7779,0.5937,0.5598,0.6084,0.4975,0.7843,0.6076,0.0198
+full_lr,Metadata + TF-IDF + embeddings + clusters,0.7809,0.6064,0.5608,0.6134,0.5026,0.7880,0.6147,0.0205
+emb_ridge,Binary LR + ridge regression (emb + clusters),0.7805,0.5980,0.5598,0.6090,0.4976,0.7863,0.6093,0.0205
+gbm,Gradient boosting on clusters/authors/kNN,0.7566,0.5735,0.5560,0.6025,0.5033,0.7519,0.6026,0.0197
+ens_main,Ensemble of 6 linear models,0.7827,0.6122,0.5617,0.6136,0.4873,0.8297,0.6152,0.0197
+ens_ft4,4 fine-tuned encoders,0.8147,0.6460,0.5624,0.6253,0.5092,0.8111,0.6240,0.0197
+ens_final,Fine-tuned encoders + linear ensemble (final),0.8153,0.6501,0.5634,0.6261,0.5100,0.8122,0.6260,0.0196
